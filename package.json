@@ -1,0 +1,21 @@
+{
+    "name": "jednesctvrtkon",
+    "version": "1.0.0",
+    "repository": "github.com/wimby/jednesctvrtkon",
+    "author": "wimby <risa.w@centrum.cz>",
+    "license": "MIT",
+    "dependencies": {
+        "moment": "latest",
+        "node-fetch": "latest"
+    },
+    "devDependencies": {
+        "serverless": "latest",
+        "serverless-plugin-typescript": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "start": "serverless invoke local -f main",
+        "start-remote": "serverless invoke -f main",
+        "deploy": "serverless deploy"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "service": "jednesctvrtkon",
+    "provider": {
+        "name": "aws",
+        "runtime": "nodejs10"
+    },
+    "functions": {
+        "main": {
+            "handler": "handler.main"
+        }
+    },
+    "plugins": [
+        "serverless-plugin-typescript"
+    ]
+}
